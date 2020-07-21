@@ -1,0 +1,36 @@
+git config --global user.name Shumyl
+git config --global user.email shumylakbar@yahoo.com --> when you make changes in remote repoitory they'll know who made the changes
+cd Desktop/
+cd git-test
+git init -> initialize git repository, allows to add, commit and push/pull
+touch shumyl.py
+touch readme.txt
+git status
+git add . -> adding all files in directory to repository
+git status
+git commit -m "first change" -> commiting files, permanent change
+
+changing files
+***Type Hello in txt***
+git status
+git add readme.txt
+git commit -m "changed readme" ->commiting files
+
+remove files
+git rm --cached shumyl.py
+git status
+git commit -m "delete shumyl.py"
+
+Branches
+git branch login
+git checkout login
+***Hello tim in txt***
+git add .
+git commit -m "update" -> commit in login branch
+
+git checkout master-> hello in read me file and py file does not exist
+modifying something in one branch does not effect other branch
+
+git checkout master
+git merge login -> merging login code to master branch.
+  

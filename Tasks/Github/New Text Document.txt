@@ -1,0 +1,16 @@
+git remote add origin -> means the url in which we will host our repository -> url shortname origin
+git remote -v -> tells url, where to fetch and push
+git push origin master -> repo not found cuz repository is private so we have to take r/w access through SSH keys
+****Theory****
+1- key generate
+2- than we get Agent process ID
+3- add SSH private key to the agent ->ssh add..
+4- cat command ->shows content
+5- copy cat output and add in ssh keys
+6- git remote set-url origin....switch to SSH and change url 
+****end****
+
+
+git push origin master -> files in browser
+git checkout login 
+git push -u origin login -> now 2 branches
